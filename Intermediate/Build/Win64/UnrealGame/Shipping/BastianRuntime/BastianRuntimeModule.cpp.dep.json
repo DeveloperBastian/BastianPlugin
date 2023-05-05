@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\lyrastartergame\\plugins\\gamefeatures\\bastian\\source\\bastianruntime\\private\\bastianruntimemodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\lyrastartergame\\intermediate\\build\\win64\\lyragame\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\lyrastartergame\\plugins\\gamefeatures\\bastian\\intermediate\\build\\win64\\unrealgame\\shipping\\bastianruntime\\definitions.bastianruntime.h",
+            "d:\\lyrastartergame\\plugins\\gamefeatures\\bastian\\source\\bastianruntime\\public\\bastianruntimemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
