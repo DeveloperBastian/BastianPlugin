@@ -54,6 +54,10 @@
 		{
 			"Name": "ShooterExplorer",
 			"Enabled": true
+		},
+		{
+			"Name": "AA_Playground",
+			"Enabled": true
 		}
 	],
 	"ExplicitlyLoaded": true,
