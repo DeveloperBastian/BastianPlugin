@@ -1,6 +1,26 @@
 # BastianPlugin
 Repository for channel https://www.youtube.com/@bastiandev/videos
 
+## Installation
+*	Check out this repository and copy the whole "Bastian" fodler to \your Lyra Game\Plugins\GameFeatures\
+*	Set the default map in the project settings to "M_DemoPlane"
+*	Add the "Text 3D" plugin, restart
+*	Open Project Settings and change "Loading Screen Widget" to your customiazed version - "W_BA_LoadingScreenHost" in my example
+*	Add the following gameplay tags (Project Settings/Gameplay Tags)
+	* Teleport Example:
+		* Gameplay.TeleportImmunity
+		* GameplayEvent.Teleport
+		* Ability.Teleport.Duration.Message
+	* Skin Change example:
+		* Ability.SkinChange.Duration.Message
+		* Gameplay.SkinChangeImmunity
+		* GameplayCue.Character.SkinChange
+		
+## Lyra base fixes
+*	Open GA_Interact from ShooterExplorer and remove the "Hello on press" PrintString node
+*	Open ABP_UnarmedAnimLayers. Look bottom right in the Anim Preview Editor and switch to "Edit Defaults". Look for "Jump Fall Land" and change to "MM_Unarmed_Jump_Fall_Land". Do the same for "ABP_UnarmedAnimLayers_Feminine"
+
+
 # Creative Commons materials in this repository
 I use assets from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
 All rights on the original Fortnite skins are owned by Epic Games and are used here within the [Epic Games Fan Art Policy](https://www.epicgames.com/site/de/fan-art-policy)
