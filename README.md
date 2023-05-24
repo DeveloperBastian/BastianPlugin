@@ -2,7 +2,7 @@
 Repository for channel https://www.youtube.com/@bastiandev/videos
 
 ## Installation
-*	Check out this repository and copy the whole "Bastian" fodler to \your Lyra Game\Plugins\GameFeatures\
+*	Check out this repository and copy the whole "Bastian" folder to \your Lyra Game\Plugins\GameFeatures\
 *	Set the default map in the project settings to "M_DemoPlane"
 *	Add the "Text 3D" plugin, restart
 *	Open Project Settings and change "Loading Screen Widget" to your customiazed version - "W_BA_LoadingScreenHost" in my example
@@ -15,6 +15,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 		* Ability.SkinChange.Duration.Message
 		* Gameplay.SkinChangeImmunity
 		* GameplayCue.Character.SkinChange
+*	Only develop and test the game as "Client"
 		
 ## Lyra base fixes
 *	Open GA_Interact from ShooterExplorer and remove the "Hello on press" PrintString node
@@ -22,10 +23,10 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 
 
 # Creative Commons materials in this repository
-I use assets from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
-All rights on the original Fortnite skins are owned by Epic Games and are used here within the [Epic Games Fan Art Policy](https://www.epicgames.com/site/de/fan-art-policy)
+I use assets here from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
+Some recreate Fortnite skins: All rights on the original Fortnite skins are owned by Epic Games and are used here within the [Epic Games Fan Art Policy](https://www.epicgames.com/site/de/fan-art-policy)
 
-All assets are individually presented on the Demo Map here in this plugin!
+All assets are individually presented on the Demo Map here in this plugin:
 
 ## Characters
 *	[Benedettta Street Blow](https://sketchfab.com/3d-models/benedetta-street-blow-3caa088a69fe4023bade4360e9c68fff) by [Kyy.Mp4](https://sketchfab.com/skyzoofficial122)
