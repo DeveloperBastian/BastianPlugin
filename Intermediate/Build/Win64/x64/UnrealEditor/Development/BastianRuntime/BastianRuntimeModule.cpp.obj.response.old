@@ -1,22 +1,25 @@
-D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private\BastianRuntimeModule.cpp
+D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private\BastianRuntimeModule.cpp
 /I .
-/I D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
-/I Runtime\CoreUObject\Public
-/I Runtime
+/I D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\UHT
+/I Runtime\Experimental\Iris\Core\Public
+/I Runtime\Experimental\Iris
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I Runtime
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
+/I Runtime\CoreUObject\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT
+/I Runtime\Net\Core\Classes
+/I Runtime\Net\Core\Public
+/I Runtime\Net
+/I Runtime\Net\Common\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT
 /I Runtime\CoreOnline\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT
-/I Runtime\Net\Core\Classes
-/I Runtime\Net\Core\Public
-/I Runtime\Net
-/I Runtime\Net\Common\Public
 /I Runtime\ApplicationCore\Public
 /I Runtime\RHI\Public
 /I Runtime\ImageCore\Public
@@ -266,15 +269,12 @@ D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private\Ba
 /I Runtime\AIModule\Classes
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\UHT
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\UHT
-/I Runtime\Experimental\Iris\Core\Public
-/I Runtime\Experimental\Iris
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\UHT
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source
-/I D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Public
+/I D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Source
+/I D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -284,12 +284,12 @@ D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private\Ba
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\LyraStarterGame\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Definitions.BastianRuntime.h"
-/Yu"D:\LyraStarterGame\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\LyraStarterGame\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.obj"
-/sourceDependencies D:\LyraStarterGame\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.dep.json
+/FI"D:\LyraStarterGame_52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Definitions.BastianRuntime.h"
+/Yu"D:\LyraStarterGame_52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\LyraStarterGame_52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.obj"
+/sourceDependencies D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

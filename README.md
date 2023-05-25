@@ -6,15 +6,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 *	Set the default map in the project settings to "M_DemoPlane"
 *	Add the "Text 3D" plugin, restart
 *	Open Project Settings and change "Loading Screen Widget" to your customiazed version - "W_BA_LoadingScreenHost" in my example
-*	Add the following gameplay tags (Project Settings/Gameplay Tags)
-	* Teleport Example:
-		* Gameplay.TeleportImmunity
-		* GameplayEvent.Teleport
-		* Ability.Teleport.Duration.Message
-	* Skin Change example:
-		* Ability.SkinChange.Duration.Message
-		* Gameplay.SkinChangeImmunity
-		* GameplayCue.Character.SkinChange
+*	Add "DT_BA_GameplayTags" to "Project Settings/Gameplay Tags/Gameplay Tag Table List"
 *	Only develop and test the game as "Client"
 		
 ## Lyra base fixes

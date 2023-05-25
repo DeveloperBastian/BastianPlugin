@@ -7,6 +7,7 @@ public class BastianRuntime : ModuleRules
 	public BastianRuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+		 // SetupIrisSupport(Target);
 		
 		PublicIncludePaths.AddRange(
 			new string[] {

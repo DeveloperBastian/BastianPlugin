@@ -54,6 +54,10 @@
 		{
 			"Name": "ShooterExplorer",
 			"Enabled": true
+		},
+		{
+			"Name": "Iris",
+			"Enabled": false
 		}
 	],
 	"ExplicitlyLoaded": true,
