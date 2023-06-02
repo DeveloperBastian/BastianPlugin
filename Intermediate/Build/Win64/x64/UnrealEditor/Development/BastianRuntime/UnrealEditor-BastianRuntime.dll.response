@@ -33,9 +33,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"D:\LyraStarterGame_52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.obj"
-"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
+"D:\LyraStarterGame52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\BastianRuntimeModule.cpp.obj"
+"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
@@ -65,7 +65,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Binaries\Win64\UnrealEditor-BastianRuntime.dll"
-/IMPLIB:"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\UnrealEditor-BastianRuntime.suppressed.lib"
-/PDB:"D:\LyraStarterGame_52\Plugins\GameFeatures\Bastian\Binaries\Win64\UnrealEditor-BastianRuntime.pdb"
+/OUT:"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Binaries\Win64\UnrealEditor-BastianRuntime.dll"
+/IMPLIB:"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\UnrealEditor-BastianRuntime.suppressed.lib"
+/PDB:"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Binaries\Win64\UnrealEditor-BastianRuntime.pdb"
 /ignore:4078
