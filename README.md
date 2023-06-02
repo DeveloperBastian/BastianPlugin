@@ -4,10 +4,10 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 ## Installation
 *	Check out this repository and copy the whole "Bastian" folder to \your Lyra Game\Plugins\GameFeatures\
 *	Set the default map in the project settings to "M_DemoPlane"
-*	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor", "UserToolBoxBasicCommand", "UserToolBoxCore" and "Targeting System", restart
+*	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", restart
 *	Open Project Settings and change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
 *	[Add "DT_BA_GameplayTags" to "Project Settings/Gameplay Tags/Gameplay Tag Table List" and that path to the Asset Manager - buggy, do not use at the moment until Epics fix]
-*	The above data table should work in theory, but does not in practise for plugins: Instead a file PluginTags.ini can be found in the plugin config folder to manage the additional Gameplay Tags
+*	The above data table should work in theory, but does not in practise for plugins: Instead a file PluginTags.ini can be found in the /config/ config folder to manage the additional Gameplay Tags - if these are not automatically added for you, copy the file into your Lyra /config folder
 *	Only develop and test the game as "Client"
 		
 ## Lyra base fixes
