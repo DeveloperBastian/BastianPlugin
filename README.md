@@ -18,6 +18,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 # Creative Commons materials in this repository
 I use assets here from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
 Some recreate Fortnite skins: All rights on the original Fortnite skins are owned by Epic Games and are used here within the [Epic Games Fan Art Policy](https://www.epicgames.com/site/de/fan-art-policy)
+If there is any asset that shouzld never have ended up on SketchFab, please immediately contact me to delete it at developer.bastian@gmail.com
 
 All assets are individually presented on the Demo Map here in this plugin:
 

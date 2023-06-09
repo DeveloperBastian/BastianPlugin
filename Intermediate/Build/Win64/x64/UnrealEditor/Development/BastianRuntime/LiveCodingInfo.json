@@ -1,5 +1,10 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.BastianRuntime.cpp.obj": [
+			"BastianRuntime.init.gen.cpp.obj",
+			"AttributeSetBADefault.cpp.obj",
+			"BastianRuntimeModule.cpp.obj"
+		]
 	}
 }
