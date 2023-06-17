@@ -6,8 +6,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 *	Set the default map in the project settings to "M_DemoPlane"
 *	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", restart
 *	Open Project Settings and change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
-*	[Add "DT_BA_GameplayTags" to "Project Settings/Gameplay Tags/Gameplay Tag Table List" and that path to the Asset Manager - buggy, do not use at the moment until Epics fix]
-*	The above data table should work in theory, but does not in practise for plugins: Instead a file PluginTags.ini can be found in the /config/ config folder to manage the additional Gameplay Tags - if these are not automatically added for you, copy the file into your Lyra /config folder
+*	Open Project Settings/GameplayTags. In the "Gameplay Tag List" select "Ad New Tag Source". Set Name = 'Plugin.ini' and Path = 'Plugins/GameFeatures/BastianPlugin/Config/Tags'
 *	Only develop and test the game as "Client"
 		
 ## Lyra base fixes
@@ -34,6 +33,7 @@ All assets are individually presented on the Demo Map here in this plugin:
 *	[Stylized plants 3d models](https://sketchfab.com/3d-models/stylized-plants-3d-models-b6f9cb5d5b074e809f68bee108f2cdc3) by [inter_net](https://sketchfab.com/inter_net)
 *	[Desert | Rocks | Stones | Pack](https://sketchfab.com/3d-models/desert-rocks-stones-pack-c2208f5ccc004f1681d27de67fe75799) by [YadroGames](https://sketchfab.com/yadrogames)
 *	[Palm Trees](https://sketchfab.com/3d-models/palm-trees-55690379305145488e20afb05fc687e6) by [YadroGames](https://sketchfab.com/yadrogames)
+*	[Chevalier Sword](https://sketchfab.com/3d-models/chevalier-sword-b2662f2666a844e8a1bd0e7c4a7672d8) by [rubenve](https://sketchfab.com/rubenve)
 
 
 

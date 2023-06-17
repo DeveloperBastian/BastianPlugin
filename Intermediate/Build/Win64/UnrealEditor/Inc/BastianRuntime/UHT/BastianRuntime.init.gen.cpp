@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeBastianRuntime_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD69716AA,
-				0xECAA16AB,
+				0x83E68CE0,
+				0x0FE4444A,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_BastianRuntime.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_BastianRuntime.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BastianRuntime(Z_Construct_UPackage__Script_BastianRuntime, TEXT("/Script/BastianRuntime"), Z_Registration_Info_UPackage__Script_BastianRuntime, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD69716AA, 0xECAA16AB));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BastianRuntime(Z_Construct_UPackage__Script_BastianRuntime, TEXT("/Script/BastianRuntime"), Z_Registration_Info_UPackage__Script_BastianRuntime, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x83E68CE0, 0x0FE4444A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

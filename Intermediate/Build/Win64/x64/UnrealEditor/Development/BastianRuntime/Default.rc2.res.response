@@ -68,9 +68,9 @@
 /DORIGINAL_FILE_NAME="UnrealEditor-BastianRuntime.dll"
 /DBUILT_FROM_CHANGELIST=25360045
 /DBUILD_VERSION=++UE5+Release-5.2-CL-25360045
-/DBUILD_ICON_FILE_NAME="\"D:\\LyraStarterGame52\\Build\\Windows\\Application.ico\""
+/DBUILD_ICON_FILE_NAME="\"D:\\LyraStarterGameNew\\Build\\Windows\\Application.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME=Lyra
-/DPROJECT_PRODUCT_IDENTIFIER=LyraStarterGame52
-/fo "D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
+/DPROJECT_PRODUCT_IDENTIFIER=LyraStarterGameNew
+/fo "D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

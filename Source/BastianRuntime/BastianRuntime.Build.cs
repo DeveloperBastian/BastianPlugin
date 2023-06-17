@@ -22,22 +22,13 @@ public class BastianRuntime : ModuleRules
 			}
 			);
 			
-		
-		PublicDependencyModuleNames.AddRange(
-			new string[]
-			{
-				"Core",
-				// ... add other public dependencies that you statically link with here ...
-			}
-			);
-
-
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
                 "Core",
                 "LyraGame",
-				// ... add other public dependencies that you statically link with here ...
+                "ModularGameplay",
+                "CommonGame"
 			}
             );
 
@@ -49,11 +40,19 @@ public class BastianRuntime : ModuleRules
                 "Engine",
                 "Slate",
                 "SlateCore",
-                "GameplayAbilities",
                 "GameplayTags",
-                "Niagara"
-				// ... add private dependencies that you statically link with here ...	
-			}
+                "GameplayTasks",
+                "GameplayAbilities",
+                "GameplayMessageRuntime",
+                "CommonUI",
+                "UMG",
+                "DataRegistry",
+                "AsyncMixin",
+                "EnhancedInput",
+                "GameSubtitles",
+                "DeveloperSettings",
+                "AIModule"
+            }
             );
-	}
+    }
 }

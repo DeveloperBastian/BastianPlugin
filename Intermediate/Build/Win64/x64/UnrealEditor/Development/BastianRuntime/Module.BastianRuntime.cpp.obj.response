@@ -1,6 +1,6 @@
-D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp
+D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp
 /I .
-/I D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Private
+/I D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Source\BastianRuntime\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
 /I Runtime\CoreUObject\Public
 /I Runtime
@@ -279,31 +279,46 @@ D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\U
 /I ..\Plugins\Runtime\DataRegistry\Intermediate\Build\Win64\UnrealEditor\Inc\DataRegistry\UHT
 /I ..\Plugins\Runtime\DataRegistry\Source\DataRegistry\Public
 /I ..\Plugins\Runtime\DataRegistry\Source
-/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\Niagara\UHT
-/I ..\Plugins\FX\Niagara\Source\Niagara\Private
-/I ..\Plugins\FX\Niagara\Source\Niagara\Classes
-/I ..\Plugins\FX\Niagara\Source\Niagara\Public
-/I ..\Plugins\FX\Niagara\Source
-/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\NiagaraCore\UHT
-/I ..\Plugins\FX\Niagara\Source\NiagaraCore\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\VectorVM\UHT
-/I Runtime\VectorVM\Public
-/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\NiagaraShader\UHT
-/I ..\Plugins\FX\Niagara\Source\NiagaraShader\Public
-/I ..\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Public
-/I Developer\DesktopPlatform\Public
-/I D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\UnrealEditor\Inc\BastianRuntime\UHT
-/I D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Source
-/I D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Source\BastianRuntime\Public
-/I D:\LyraStarterGame52\Intermediate\Build\Win64\UnrealEditor\Inc\LyraGame\UHT
-/I D:\LyraStarterGame52\Source\LyraGame
-/I D:\LyraStarterGame52\Source
+/I D:\LyraStarterGameNew\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayMessageRuntime\UHT
+/I D:\LyraStarterGameNew\Plugins\GameplayMessageRouter\Source
+/I D:\LyraStarterGameNew\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public
+/I ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Inc\CommonUI\UHT
+/I ..\Plugins\Experimental\CommonUI\Source\CommonUI\Public
+/I ..\Plugins\Experimental\CommonUI\Source
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetCarousel\UHT
+/I Runtime\WidgetCarousel\Public
+/I ..\Plugins\Experimental\CommonUI\Intermediate\Build\Win64\UnrealEditor\Inc\CommonInput\UHT
+/I ..\Plugins\Experimental\CommonUI\Source\CommonInput\Public
+/I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
+/I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
+/I ..\Plugins\EnhancedInput\Source
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MediaAssets\UHT
+/I Runtime\MediaAssets\Public
+/I Runtime\Media\Public
+/I Runtime\ColorManagement\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MediaUtils\UHT
+/I Runtime\MediaUtils\Public
+/I D:\LyraStarterGameNew\Plugins\AsyncMixin\Source
+/I D:\LyraStarterGameNew\Plugins\AsyncMixin\Source\Public
+/I D:\LyraStarterGameNew\Plugins\AsyncMixin
+/I D:\LyraStarterGameNew\Plugins\GameSubtitles\Intermediate\Build\Win64\UnrealEditor\Inc\GameSubtitles\UHT
+/I D:\LyraStarterGameNew\Plugins\GameSubtitles\Source
+/I D:\LyraStarterGameNew\Plugins\GameSubtitles\Source\Public
+/I D:\LyraStarterGameNew\Plugins\GameSubtitles
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Overlay\UHT
+/I Runtime\Overlay\Public
+/I D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\UnrealEditor\Inc\BastianRuntime\UHT
+/I D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Source
+/I D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Source\BastianRuntime\Public
+/I D:\LyraStarterGameNew\Intermediate\Build\Win64\UnrealEditor\Inc\LyraGame\UHT
+/I D:\LyraStarterGameNew\Source\LyraGame
+/I D:\LyraStarterGameNew\Source
 /I ..\Plugins\Experimental\ModularGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\ModularGameplay\UHT
 /I ..\Plugins\Experimental\ModularGameplay\Source\ModularGameplay\Public
 /I ..\Plugins\Experimental\ModularGameplay\Source
-/I D:\LyraStarterGame52\Plugins\ModularGameplayActors\Intermediate\Build\Win64\UnrealEditor\Inc\ModularGameplayActors\UHT
-/I D:\LyraStarterGame52\Plugins\ModularGameplayActors\Source
-/I D:\LyraStarterGame52\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public
+/I D:\LyraStarterGameNew\Plugins\ModularGameplayActors\Intermediate\Build\Win64\UnrealEditor\Inc\ModularGameplayActors\UHT
+/I D:\LyraStarterGameNew\Plugins\ModularGameplayActors\Source
+/I D:\LyraStarterGameNew\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public
 /I ..\Plugins\Runtime\ReplicationGraph\Intermediate\Build\Win64\UnrealEditor\Inc\ReplicationGraph\UHT
 /I ..\Plugins\Runtime\ReplicationGraph\Source\Public
 /I ..\Plugins\Runtime\ReplicationGraph
@@ -324,14 +339,31 @@ D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\U
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineBase\Source\Public
 /I ..\Plugins\Online\OnlineBase
-/I D:\LyraStarterGame52\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\UnrealEditor\Inc\CommonLoadingScreen\UHT
-/I D:\LyraStarterGame52\Plugins\CommonLoadingScreen\Source
-/I D:\LyraStarterGame52\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public
-/I D:\LyraStarterGame52\Plugins\AsyncMixin\Source
-/I D:\LyraStarterGame52\Plugins\AsyncMixin\Source\Public
-/I D:\LyraStarterGame52\Plugins\AsyncMixin
+/I D:\LyraStarterGameNew\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\UnrealEditor\Inc\CommonLoadingScreen\UHT
+/I D:\LyraStarterGameNew\Plugins\CommonLoadingScreen\Source
+/I D:\LyraStarterGameNew\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\Niagara\UHT
+/I ..\Plugins\FX\Niagara\Source\Niagara\Private
+/I ..\Plugins\FX\Niagara\Source\Niagara\Classes
+/I ..\Plugins\FX\Niagara\Source\Niagara\Public
+/I ..\Plugins\FX\Niagara\Source
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\NiagaraCore\UHT
+/I ..\Plugins\FX\Niagara\Source\NiagaraCore\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\VectorVM\UHT
+/I Runtime\VectorVM\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\NiagaraShader\UHT
+/I ..\Plugins\FX\Niagara\Source\NiagaraShader\Public
+/I ..\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Public
+/I Developer\DesktopPlatform\Public
 /I ..\Plugins\Experimental\ControlFlows\Source\ControlFlows\Public
 /I ..\Plugins\Experimental\ControlFlows\Source
+/I D:\LyraStarterGameNew\Plugins\CommonGame\Intermediate\Build\Win64\UnrealEditor\Inc\CommonGame\UHT
+/I D:\LyraStarterGameNew\Plugins\CommonGame\Source
+/I D:\LyraStarterGameNew\Plugins\CommonGame\Source\Public
+/I D:\LyraStarterGameNew\Plugins\CommonGame
+/I D:\LyraStarterGameNew\Plugins\CommonUser\Intermediate\Build\Win64\UnrealEditor\Inc\CommonUser\UHT
+/I D:\LyraStarterGameNew\Plugins\CommonUser\Source
+/I D:\LyraStarterGameNew\Plugins\CommonUser\Source\CommonUser\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -341,12 +373,12 @@ D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\U
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\LyraStarterGame52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Definitions.BastianRuntime.h"
-/Yu"D:\LyraStarterGame52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\LyraStarterGame52\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.obj"
-/sourceDependencies D:\LyraStarterGame52\Plugins\GameFeatures\Bastian\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.dep.json
+/FI"D:\LyraStarterGameNew\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Definitions.BastianRuntime.h"
+/Yu"D:\LyraStarterGameNew\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\LyraStarterGameNew\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.obj"
+/sourceDependencies D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

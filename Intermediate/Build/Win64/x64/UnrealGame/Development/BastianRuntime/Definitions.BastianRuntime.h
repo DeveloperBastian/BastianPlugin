@@ -48,7 +48,7 @@
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
 #define UE_LIVE_CODING_ENGINE_DIR "D:\\3D\\UE_5.2\\Engine"
-#define UE_LIVE_CODING_PROJECT "D:\\LyraStarterGame_52\\LyraStarterGame_52.uproject"
+#define UE_LIVE_CODING_PROJECT "D:\\LyraStarterGameNew\\LyraStarterGameNew.uproject"
 #define WITH_CPP_MODULES 0
 #define WITH_CPP_COROUTINES 0
 #define WITH_PROCESS_PRIORITY_CONTROL 0
@@ -72,7 +72,7 @@
 #define UE_DISABLE_INLINE_GEN_CPP 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 0
-#define UE_PROJECT_NAME LyraStarterGame_52
+#define UE_PROJECT_NAME LyraStarterGameNew
 #define UE_TARGET_NAME LyraGame
 #define UE_MODULE_NAME "BastianRuntime"
 #define UE_PLUGIN_NAME "Bastian"
@@ -214,4 +214,126 @@
 #define MOVIESCENECAPTURE_API 
 #define TYPEDELEMENTFRAMEWORK_API 
 #define TYPEDELEMENTRUNTIME_API 
+#define GAMEPLAYTASKS_API 
+#define WITH_GAMEPLAY_DEBUGGER_CORE 1
+#define WITH_GAMEPLAY_DEBUGGER 1
+#define WITH_GAMEPLAY_DEBUGGER_MENU 1
+#define UE_WITH_IRIS 1
+#define GAMEPLAYABILITIES_API 
+#define MOVIESCENE_API 
+#define TIMEMANAGEMENT_API 
+#define DATAREGISTRY_API 
+#define GAMEPLAYMESSAGERUNTIME_API 
+#define COMMONUI_API 
+#define UMG_API 
+#define HTTP_PACKAGE 1
+#define CURL_ENABLE_DEBUG_CALLBACK 1
+#define CURL_ENABLE_NO_TIMEOUTS_OPTION 1
+#define WITH_WINHTTP 1
+#define HTTP_API 
+#define MOVIESCENETRACKS_API 
+#define CONSTRAINTS_API 
+#define PROPERTYPATH_API 
+#define WIDGETCAROUSEL_API 
+#define UE_COMMONINPUT_PLATFORM_TYPE PC
+#define COMMONINPUT_API 
+#define ENHANCEDINPUT_API 
+#define MEDIAASSETS_API 
+#define AUDIOLINKENGINE_API 
+#define MEDIA_API 
+#define COLORMANAGEMENT_API 
+#define MEDIAUTILS_API 
+#define ASYNCMIXIN_API 
+#define GAMESUBTITLES_API 
+#define OVERLAY_API 
+#define WITH_RECAST 1
+#define WITH_GAMEPLAY_DEBUGGER_CORE 1
+#define WITH_GAMEPLAY_DEBUGGER 1
+#define WITH_GAMEPLAY_DEBUGGER_MENU 1
+#define AIMODULE_API 
+#define WITH_CLOTH_COLLISION_DETECTION 1
+#define INCLUDE_CHAOS UE_DEPRECATED_MACRO(5.1, "INCLUDE_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_CLOTHING is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_NEEDS_TO_BE_FIXED UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_NEEDS_TO_BE_FIXED is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX_COOKING UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX_COOKING is deprecated and should always be considered 0.") 0
+#define PHYSICS_INTERFACE_PHYSX UE_DEPRECATED_MACRO(5.1, "PHYSICS_INTERFACE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_APEX UE_DEPRECATED_MACRO(5.1, "WITH_APEX is deprecated and should always be considered 0.") 0
+#define WITH_APEX_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_APEX_CLOTHING is deprecated and should always be considered 0.") 0
+#define WITH_NVCLOTH UE_DEPRECATED_MACRO(5.1, "WITH_NVCLOTH is deprecated and should always be considered 0.") 0
+#define WITH_IMMEDIATE_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_IMMEDIATE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_CUSTOM_SQ_STRUCTURE UE_DEPRECATED_MACRO(5.1, "WITH_CUSTOM_SQ_STRUCTURE is deprecated and should always be considered 0.") 0
+#define WITH_RECAST 1
+#define WITH_NAVMESH_SEGMENT_LINKS 1
+#define WITH_NAVMESH_CLUSTER_LINKS 1
+#define NAVIGATIONSYSTEM_API 
+#define WITH_CLOTH_COLLISION_DETECTION 1
+#define INCLUDE_CHAOS UE_DEPRECATED_MACRO(5.1, "INCLUDE_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_CLOTHING is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_NEEDS_TO_BE_FIXED UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_NEEDS_TO_BE_FIXED is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX_COOKING UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX_COOKING is deprecated and should always be considered 0.") 0
+#define PHYSICS_INTERFACE_PHYSX UE_DEPRECATED_MACRO(5.1, "PHYSICS_INTERFACE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_APEX UE_DEPRECATED_MACRO(5.1, "WITH_APEX is deprecated and should always be considered 0.") 0
+#define WITH_APEX_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_APEX_CLOTHING is deprecated and should always be considered 0.") 0
+#define WITH_NVCLOTH UE_DEPRECATED_MACRO(5.1, "WITH_NVCLOTH is deprecated and should always be considered 0.") 0
+#define WITH_IMMEDIATE_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_IMMEDIATE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_CUSTOM_SQ_STRUCTURE UE_DEPRECATED_MACRO(5.1, "WITH_CUSTOM_SQ_STRUCTURE is deprecated and should always be considered 0.") 0
+#define GEOMETRYCOLLECTIONENGINE_API 
+#define MATERIALSHADERQUALITYSETTINGS_API 
+#define FIELDSYSTEMENGINE_API 
+#define WITH_CLOTH_COLLISION_DETECTION 1
+#define INCLUDE_CHAOS UE_DEPRECATED_MACRO(5.1, "INCLUDE_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_CLOTHING is deprecated and should always be considered 1.") 1
+#define WITH_CHAOS_NEEDS_TO_BE_FIXED UE_DEPRECATED_MACRO(5.1, "WITH_CHAOS_NEEDS_TO_BE_FIXED is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX is deprecated and should always be considered 1.") 1
+#define WITH_PHYSX_COOKING UE_DEPRECATED_MACRO(5.1, "WITH_PHYSX_COOKING is deprecated and should always be considered 0.") 0
+#define PHYSICS_INTERFACE_PHYSX UE_DEPRECATED_MACRO(5.1, "PHYSICS_INTERFACE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_APEX UE_DEPRECATED_MACRO(5.1, "WITH_APEX is deprecated and should always be considered 0.") 0
+#define WITH_APEX_CLOTHING UE_DEPRECATED_MACRO(5.1, "WITH_APEX_CLOTHING is deprecated and should always be considered 0.") 0
+#define WITH_NVCLOTH UE_DEPRECATED_MACRO(5.1, "WITH_NVCLOTH is deprecated and should always be considered 0.") 0
+#define WITH_IMMEDIATE_PHYSX UE_DEPRECATED_MACRO(5.1, "WITH_IMMEDIATE_PHYSX is deprecated and should always be considered 0.") 0
+#define WITH_CUSTOM_SQ_STRUCTURE UE_DEPRECATED_MACRO(5.1, "WITH_CUSTOM_SQ_STRUCTURE is deprecated and should always be considered 0.") 0
+#define CHAOSSOLVERENGINE_API 
+#define DATAFLOWCORE_API 
+#define DATAFLOWENGINE_API 
 #define BASTIANRUNTIME_API 
+#define SHIPPING_DRAW_DEBUG_ERROR 1
+#define WITH_GAMEPLAY_DEBUGGER_CORE 1
+#define WITH_GAMEPLAY_DEBUGGER 1
+#define WITH_GAMEPLAY_DEBUGGER_MENU 1
+#define UE_WITH_IRIS 1
+#define LYRAGAME_API 
+#define MODULARGAMEPLAY_API 
+#define MODULARGAMEPLAYACTORS_API 
+#define REPLICATIONGRAPH_API 
+#define GAMEFEATURES_API 
+#define SIGNIFICANCEMANAGER_API 
+#define UPDATEMANAGER_PLATFORM_ENVIRONMENT_DETECTION 0
+#define HOTFIX_API 
+#define PATCHCHECK_API 
+#define INSTALLBUNDLEMANAGER_API 
+#define ONLINESUBSYSTEM_PACKAGE 1
+#define DEBUG_LAN_BEACON 0
+#define ONLINESUBSYSTEM_API 
+#define ONLINEBASE_API 
+#define COMMONLOADINGSCREEN_API 
+#define VECTORVM_SUPPORTS_EXPERIMENTAL 1
+#define VECTORVM_SUPPORTS_LEGACY 1
+#define NIAGARA_API 
+#define NIAGARACORE_API 
+#define VECTORVM_SUPPORTS_EXPERIMENTAL 1
+#define VECTORVM_SUPPORTS_LEGACY 1
+#define VECTORVM_API 
+#define NIAGARASHADER_API 
+#define READ_TARGET_ENABLED_PLUGINS_FROM_RECEIPT 0
+#define LOAD_PLUGINS_FOR_TARGET_PLATFORMS 0
+#define PROJECTS_API 
+#define NIAGARAVERTEXFACTORIES_API 
+#define CONTROLFLOWS_API 
+#define COMMONGAME_API 
+#define COMMONUSER_OSSV1 1
+#define COMMONUSER_API 
