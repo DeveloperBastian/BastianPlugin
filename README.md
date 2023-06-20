@@ -14,6 +14,9 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 *	Open ABP_UnarmedAnimLayers. Look bottom right in the Anim Preview Editor and switch to "Edit Defaults". Look for "Jump Fall Land" and change to "MM_Unarmed_Jump_Fall_Land". Do the same for "ABP_UnarmedAnimLayers_Feminine"
 
 
+# Mixamo animations
+Mixamo animation are used within this Lyra plugin. All rights belong to Adobe, usage is covered by https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+
 # Creative Commons materials in this repository
 I use assets here from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
 Some recreate Fortnite skins: All rights on the original Fortnite skins are owned by Epic Games and are used here within the [Epic Games Fan Art Policy](https://www.epicgames.com/site/de/fan-art-policy)
@@ -35,7 +38,16 @@ All assets are individually presented on the Demo Map here in this plugin:
 *	[Palm Trees](https://sketchfab.com/3d-models/palm-trees-55690379305145488e20afb05fc687e6) by [YadroGames](https://sketchfab.com/yadrogames)
 *	[Chevalier Sword](https://sketchfab.com/3d-models/chevalier-sword-b2662f2666a844e8a1bd0e7c4a7672d8) by [rubenve](https://sketchfab.com/rubenve)
 
+# Epic Unreal components
+I use various assets under license from Epic Games and bundle parts of them them with this repository:
+*	[Unreal Lyra](https://www.unrealengine.com/marketplace/en-US/product/lyra) as the base for this Plugin
+*	[UI Material Lab](https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab)
 
+# Various open source components
+*	[UE4 Grid Material](https://github.com/techarthub/ue4-grid-material) from [Nick Mower - techarthub](https://github.com/techarthub)
+*	Icons from [Game Icons](https://game-icons.net/) are under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/)
+**	Crowned skull icon by [Lorc](https://lorcblog.blogspot.com/)
+**	Sword and spade icon by [Lorc](https://lorcblog.blogspot.com/)
 
 
 
