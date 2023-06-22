@@ -4,7 +4,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 ## Installation
 *	Check out this repository and copy the whole "Bastian" folder to \your Lyra Game\Plugins\GameFeatures\
 *	Set the default map in the project settings to "M_DemoPlane"
-*	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", restart
+*	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", "Python Foundation Packages", restart
 *	Open Project Settings and change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
 *	Open Project Settings/GameplayTags. In the "Gameplay Tag List" select "Ad New Tag Source". Set Name = 'Plugin.ini' and Path = 'Plugins/GameFeatures/BastianPlugin/Config/Tags'
 *	Only develop and test the game as "Client"
@@ -44,10 +44,11 @@ I use various assets under license from Epic Games and bundle parts of them them
 *	[UI Material Lab](https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab)
 
 # Various open source components
-*	[UE4 Grid Material](https://github.com/techarthub/ue4-grid-material) from [Nick Mower - techarthub](https://github.com/techarthub)
-*	Icons from [Game Icons](https://game-icons.net/) are under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/)
-**	Crowned skull icon by [Lorc](https://lorcblog.blogspot.com/)
-**	Sword and spade icon by [Lorc](https://lorcblog.blogspot.com/)
+-	[UE4 Grid Material](https://github.com/techarthub/ue4-grid-material) from [Nick Mower - techarthub](https://github.com/techarthub)
+-	Icons from [Game Icons](https://game-icons.net/) are under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/)
+	- Crowned skull icon by [Lorc](https://lorcblog.blogspot.com/)
+	- Sword and spade icon by [Lorc](https://lorcblog.blogspot.com/)
+- [MixamoToUE](https://github.com/manosmiras/MixamoToUE) by [manosmiras](https://manosmiras.com/) to get a fast working Mixamo retargeter
 
 
 

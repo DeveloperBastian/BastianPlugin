@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Developer Bastian - MIT license - https://www.youtube.com/@bastiandev
 
 using UnrealBuildTool;
 
