@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BastianRuntime.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\LyraStarterGame\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\LyraStarterGame\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.obj"
+"D:\LyraStarterGame\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
+/OUT:"D:\LyraStarterGame\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\UnrealEditor-BastianRuntime.lib"

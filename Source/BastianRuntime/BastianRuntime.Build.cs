@@ -28,14 +28,8 @@ public class BastianRuntime : ModuleRules
                 "Core",
                 "LyraGame",
                 "ModularGameplay",
-                "CommonGame"
-			}
-            );
-
-
-        PrivateDependencyModuleNames.AddRange(
-            new string[]
-            {
+                "CommonGame",
+                "NNECore",
                 "CoreUObject",
                 "Engine",
                 "Slate",
@@ -51,7 +45,37 @@ public class BastianRuntime : ModuleRules
                 "EnhancedInput",
                 "GameSubtitles",
                 "DeveloperSettings",
-                "AIModule"
+                "AIModule", 
+                "OpenCV"
+            }
+            );
+
+
+        PrivateDependencyModuleNames.AddRange(
+            new string[]
+            {
+                "Core",
+                "LyraGame",
+                "ModularGameplay",
+                "CommonGame",
+                "NNECore",
+                "CoreUObject",
+                "Engine",
+                "Slate",
+                "SlateCore",
+                "GameplayTags",
+                "GameplayTasks",
+                "GameplayAbilities",
+                "GameplayMessageRuntime",
+                "CommonUI",
+                "UMG",
+                "DataRegistry",
+                "AsyncMixin",
+                "EnhancedInput",
+                "GameSubtitles",
+                "DeveloperSettings",
+                "AIModule",
+                "OpenCV"
             }
             );
     }

@@ -2,16 +2,16 @@
 Repository for channel https://www.youtube.com/@bastiandev/videos
 
 ## Installation
-*	Check out this repository and copy the whole "Bastian" folder to \your Lyra Game\Plugins\GameFeatures\
+*	Check out this repository into YourLyraFolder/Plugins/GameFeatures/. Open, recomile on request.
 *	Set the default map in the project settings to "M_DemoPlane"
 *	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", "Python Foundation Packages", restart
 *	Open Project Settings and change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
-*	Open Project Settings/GameplayTags. In the "Gameplay Tag List" select "Ad New Tag Source". Set Name = 'Plugin.ini' and Path = 'Plugins/GameFeatures/BastianPlugin/Config/Tags'
-*	Only develop and test the game as "Client"
+*	Gameplay Tags: I tried to "Add New Tag Source" on the gameplay tags and also refined a DataTable to be read - both are not reliable in Plugins at the moment. So currently, all tags are defined in the Bastian.Runtime.h - so you don't have to add anything manually
+*	Only develop and test the game as "Client". Only debug from Visual Studio as either "Development Editor" or "Debug Editor"
 		
 ## Lyra base fixes
 *	Open GA_Interact from ShooterExplorer and remove the "Hello on press" PrintString node
-*	Open ABP_UnarmedAnimLayers. Look bottom right in the Anim Preview Editor and switch to "Edit Defaults". Look for "Jump Fall Land" and change to "MM_Unarmed_Jump_Fall_Land". Do the same for "ABP_UnarmedAnimLayers_Feminine"
+*	Search Lyra directory for "ABP_UnarmedAnimLayers". You will find 2: Open both and look bottom right in the Anim Preview Editor and switch to "Edit Defaults". Look for "Jump Fall Land" and change to "MM_Unarmed_Jump_Fall_Land". Do the same for "ABP_UnarmedAnimLayers_Feminine"
 
 
 # Mixamo animations

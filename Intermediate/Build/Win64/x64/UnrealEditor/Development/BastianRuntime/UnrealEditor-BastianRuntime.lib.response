@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-BastianRuntime.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\LyraStarterGameNew\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.obj"
-"D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
-/OUT:"D:\LyraStarterGameNew\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\UnrealEditor-BastianRuntime.lib"
+"D:\LyraStarterGameLatest\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\LyraStarterGameLatest\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Module.BastianRuntime.cpp.obj"
+"D:\LyraStarterGameLatest\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
+/OUT:"D:\LyraStarterGameLatest\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\UnrealEditor-BastianRuntime.lib"

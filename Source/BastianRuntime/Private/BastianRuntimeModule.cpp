@@ -10,11 +10,28 @@
 
 #define LOCTEXT_NAMESPACE "FBastianRuntimeModule"
 
+#pragma region Create Gameplay Tags
+
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Gameplay_TeleportImmunity, "Gameplay.TeleportImmunity");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_GameplayEvent_Teleport, "GameplayEvent.Teleport");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Teleport_Duration_Message, "Ability.Teleport.Duration.Message");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_SkinChange_Duration_Message, "Ability.SkinChange.Duration.Message");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_GameplayCue_Character_SkinChange, "GameplayCue.Character.SkinChange");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Gameplay_SkinChangeImmunity, "Gameplay.SkinChangeImmunity");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Interact, "InputTag.Ability.Interact");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_ToggleTarget, "InputTag.Ability.ToggleTarget");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Fingershot, "InputTag.Ability.Fingershot");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Targeting, "Ability.Targeting");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Emote_Fingershot, "Ability.Emote.Fingershot");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_DebugButtons, "Ability.DebugButtons");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_DebugButtons, "InputTag.Ability.DebugButton");
+
+#pragma endregion
+
 void FBastianRuntimeModule::StartupModule()
 {
 	// here we set custom icons for the classess we create in this module
 	// idea from https://www.quodsoler.com/blog/customize-your-unreal-class-icons
-	
 	// Create the new style set
 	StyleSetInstance = MakeShareable(new FSlateStyleSet("BastianDevEditorStyle"));
 	// Assign the content root of this style set
@@ -33,7 +50,7 @@ void FBastianRuntimeModule::StartupModule()
 
 void FBastianRuntimeModule::ShutdownModule()
 {
-	FModuleManager::Get().OnModulesChanged().RemoveAll(this);
+	//FModuleManager::Get().OnModulesChanged().RemoveAll(this);
 
 	// Unregister the style set and reset the pointer
 	FSlateStyleRegistry::UnRegisterSlateStyle(*StyleSetInstance.Get());
