@@ -16,6 +16,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 
 # Mixamo animations
 Mixamo animation are used within this Lyra plugin. All rights belong to Adobe, usage is covered by https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+I use https://terribilisstudio.fr/ free Mixamo converter to convert the animations into Unreal - this fixes root motion and some finger/hand problems
 
 # Creative Commons materials in this repository
 I use assets here from [Sketchfab](https://sketchfab.com/) that are licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/)
