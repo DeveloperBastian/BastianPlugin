@@ -46,10 +46,9 @@ I use various assets under license from Epic Games and bundle parts of them them
 
 # Various open source components
 -	[UE4 Grid Material](https://github.com/techarthub/ue4-grid-material) from [Nick Mower - techarthub](https://github.com/techarthub)
--	Icons from [Game Icons](https://game-icons.net/) are under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/)
-	- Crowned skull icon by [Lorc](https://lorcblog.blogspot.com/)
-	- Sword and spade icon by [Lorc](https://lorcblog.blogspot.com/)
-- [MixamoToUE](https://github.com/manosmiras/MixamoToUE) by [manosmiras](https://manosmiras.com/) to get a fast working Mixamo retargeter
+-	Icons by [Lorc](https://lorcblog.blogspot.com/) from [Game Icons](https://game-icons.net/) are under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/)
+- 	Sound from [freesound.org](https://freesound.org/)
+	- S: [hip hop Beat Loop7.wav](https://freesound.org/people/Spol/sounds/77199/) by Spol | License: Attribution 3.0
 
 
 

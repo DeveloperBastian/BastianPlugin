@@ -26,6 +26,8 @@ UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Emote_Fingershot, "Ability.Emote.Fingersho
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_DebugButtons, "Ability.DebugButtons");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_DebugButtons, "InputTag.Ability.DebugButton");
 
+
+
 #pragma endregion
 
 void FBastianRuntimeModule::StartupModule()
