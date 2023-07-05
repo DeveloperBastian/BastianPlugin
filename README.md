@@ -5,7 +5,9 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 *	Check out this repository into YourLyraFolder/Plugins/GameFeatures/. Open, recomile on request.
 *	Set the default map in the project settings to "M_DemoPlane"
 *	Add the plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Tool Palette for the Widget Editor" and "Targeting System", "Python Foundation Packages", restart
-*	Open Project Settings and change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
+*	Open Project Settings and 
+	*	change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
+	*	Go to "Game > Asset Referencing Policy > Project Content > Can reference these domains" and add another element and select your "Bastian" as the plugin name reference
 *	Gameplay Tags: I tried to "Add New Tag Source" on the gameplay tags and also refined a DataTable to be read - both are not reliable in Plugins at the moment. So currently, all tags are defined in the Bastian.Runtime.h - so you don't have to add anything manually
 *	Only develop and test the game as "Client". Only debug from Visual Studio as either "Development Editor" or "Debug Editor"
 		
