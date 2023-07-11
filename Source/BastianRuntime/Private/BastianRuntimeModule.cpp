@@ -11,18 +11,26 @@
 #define LOCTEXT_NAMESPACE "FBastianRuntimeModule"
 
 #pragma region Create Gameplay Tags
-
+// Teleport
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Gameplay_TeleportImmunity, "Gameplay.TeleportImmunity");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_GameplayEvent_Teleport, "GameplayEvent.Teleport");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Teleport_Duration_Message, "Ability.Teleport.Duration.Message");
+// Skin Change
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_SkinChange_Duration_Message, "Ability.SkinChange.Duration.Message");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_GameplayCue_Character_SkinChange, "GameplayCue.Character.SkinChange");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Gameplay_SkinChangeImmunity, "Gameplay.SkinChangeImmunity");
+// Interact
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Interact, "InputTag.Ability.Interact");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_ToggleTarget, "InputTag.Ability.ToggleTarget");
-UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Fingershot, "InputTag.Ability.Fingershot");
+// Targeting
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Targeting, "Ability.Targeting");
+// FingerShot
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Emote_Fingershot, "Ability.Emote.Fingershot");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Fingershot, "InputTag.Ability.Emote.Fingershot");
+// BreakDance
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_Emote_BreakDance1990, "Ability.Emote.BreakDance1990");
+UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_Emote_BreakDance1990, "InputTag.Ability.Emote.BreakDance1990");
+// Debug Menu
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_Ability_DebugButtons, "Ability.DebugButtons");
 UE_DEFINE_GAMEPLAY_TAG(TAG_BA_InputTag_Ability_DebugButtons, "InputTag.Ability.DebugButton");
 

@@ -2,11 +2,11 @@
 /D_WIN64
 /l 0x409
 /I "."
-/I "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
 /DIS_PROGRAM=0
 /DUE_EDITOR=1
 /DUSE_SHADER_COMPILER_WORKER_TRACE=0
@@ -68,9 +68,9 @@
 /DORIGINAL_FILE_NAME="UnrealEditor-BastianRuntime.dll"
 /DBUILT_FROM_CHANGELIST=26001984
 /DBUILD_VERSION=++UE5+Release-5.2-CL-26001984
-/DBUILD_ICON_FILE_NAME="\"D:\\LyraStarterGameLatest\\Build\\Windows\\Application.ico\""
+/DBUILD_ICON_FILE_NAME="\"C:\\Users\\rober\\OneDrive\\Dokumente\\Unreal Projects\\LyraStarterGame\\Build\\Windows\\Application.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME=Lyra
 /DPROJECT_PRODUCT_IDENTIFIER=LyraStarterGame
-/fo "D:\LyraStarterGameLatest\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
+/fo "C:\Users\rober\OneDrive\Dokumente\Unreal Projects\LyraStarterGame\Plugins\GameFeatures\BastianPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\BastianRuntime\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
