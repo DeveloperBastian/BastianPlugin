@@ -69,7 +69,7 @@
 #define UE_DISABLE_INLINE_GEN_CPP 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 0
-#define UE_PROJECT_NAME LyraStarterGame
+#define UE_PROJECT_NAME LyraStarterGameTest
 #define UE_TARGET_NAME LyraEditor
 #define UE_MODULE_NAME "BastianRuntime"
 #define UE_PLUGIN_NAME "Bastian"
