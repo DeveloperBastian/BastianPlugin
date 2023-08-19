@@ -70,6 +70,10 @@
 		{
 			"Name": "OpenCV",
 			"Enabled": true
+		},
+		{
+			"Name": "TopDownArena",
+			"Enabled": true
 		}
 	],
 	"ExplicitlyLoaded": true,
