@@ -12,7 +12,7 @@
 
 void FBastianRuntimeModule::StartupModule()
 {
-	// here we set custom icons for the classess we create in this module
+	// here we set custom icons for the classes we create in this module
 	// idea from https://www.quodsoler.com/blog/customize-your-unreal-class-icons
 	// Create the new style set
 	StyleSetInstance = MakeShareable(new FSlateStyleSet("BastianDevEditorStyle"));
@@ -21,9 +21,15 @@ void FBastianRuntimeModule::StartupModule()
 	
 	// repeat the below region for each icon you want to register for your classes
 #pragma region icon for GameAttributeSet
-	auto ImageBrush = new FSlateImageBrush(StyleSetInstance->RootToContentDir("/icons/sword-spade.png"), FVector2D(18, 18));
-	StyleSetInstance->Set("ClassIcon.GameAttributeSet", ImageBrush);
+	auto ImageBrushAttributeSet = new FSlateImageBrush(StyleSetInstance->RootToContentDir("/icons/sword-spade.png"), FVector2D(18, 18));
+	StyleSetInstance->Set("ClassIcon.GameAttributeSet", ImageBrushAttributeSet);
 	UE_LOG(LogTemp, Display, TEXT("FBastianRuntimeModule: Registered ClassIcon for 'GameAttributeSet' to 'GameFeatures/BastianPlugin/Resources/icons/sword-spade.png'"));
+#pragma endregion
+
+#pragma region icon for GameAttributeSet
+	auto ImageBrushInvFragments = new FSlateImageBrush(StyleSetInstance->RootToContentDir("/icons/inventory-fragments.png"), FVector2D(18, 18));
+	StyleSetInstance->Set("ClassIcon.BALyraInventoryItemFragment", ImageBrushInvFragments);
+	UE_LOG(LogTemp, Display, TEXT("FBastianRuntimeModule: Registered ClassIcon for 'Inventory Fragments' to 'GameFeatures/BastianPlugin/Resources/icons/inventory-fragments.png'"));
 #pragma endregion
 
 	// Finally register the style set so it is actually used
