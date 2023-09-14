@@ -4,7 +4,7 @@ Repository for channel https://www.youtube.com/@bastiandev/videos
 ## Installation
 *	Check out this repository into YourLyraFolder/Plugins/GameFeatures/. Open, recompile on request.
 *	Set the default map in the project settings to "M_DemoPlane"
-*	Add the Unreal plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Targeting System", "Python Foundation Packages", "Pose Search", restart
+*	Add the Unreal plugins: "Text 3D", "HttpBlueprint", Blueprint Stats", "Targeting System", "Python Foundation Packages", "Pose Search", "Procedural Content Generation Framework", "Procedural Content Generation Framework Script Interop" - restart
 *	Open Project Settings and 
 	*	change "Loading Screen Widget" to your customized version - "W_BA_LoadingScreenHost" in my example
 	*	Go to "Game > Asset Referencing Policy > Project Content > Can reference these domains" and add another element and select your "Bastian" as the plugin name reference
@@ -52,6 +52,10 @@ All assets are individually presented on the Demo Map here in this plugin:
 *	[Palm Trees](https://sketchfab.com/3d-models/palm-trees-55690379305145488e20afb05fc687e6) by [YadroGames](https://sketchfab.com/yadrogames)
 *	[Chevalier Sword](https://sketchfab.com/3d-models/chevalier-sword-b2662f2666a844e8a1bd0e7c4a7672d8) by [rubenve](https://sketchfab.com/rubenve)
 *	[Argonian Mace](https://skfb.ly/6sAEF) by [Lexi4](https://sketchfab.com/mr.alyxey13)
+*	[HQ Big Rock](https://skfb.ly/6sAEF) by [not_Lonely](https://sketchfab.com/not_lonely)
+
+
+https://sketchfab.com/3d-models/hq-big-rock-38090ffb26b345c185c615b51fb1beb6
 
 # Epic Unreal components
 I use various assets under license from Epic Games and bundle parts of them them with this repository:
